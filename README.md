@@ -24,7 +24,7 @@ game launcher is a tools for select and launch the game you want (steam library-
 All this file have to be in "~/game_launcher/" directory or in the directory PATH\
 You can create a .gcf file with a "add" command
 
-the default version can have some character unknown by your computer, so use the classic box version.\
+the default version can have some character unknown by your computer, so use the classic box version.
 
 # SCREENSHOT
 DEFAULT display:\
