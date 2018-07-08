@@ -33,5 +33,8 @@ DEFAULT display:\
 CLASSIC BOX display:\
 ![CLASSIC BOX display screenshot](screenshot/classic.png)
 
+.gcf example:\
+![cat of a gcf screenshot](screenshot/gcfexample.png)
+
 adding a .gcf file:\
 ![adding a .gcf file screenshot](screenshot/add.png)
