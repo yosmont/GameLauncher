@@ -27,11 +27,11 @@ You can create a .gcf file with a "add" command
 the default version can have some character unknown by your computer, so use the classic box version.\
 
 # SCREENSHOT
-DEFAULT display:
+DEFAULT display:\
 [DEFAULT display screenshot](screenshot/better.png)
 
-CLASSIC BOX display:
+CLASSIC BOX display:\
 [CLASSIC BOX display screenshot](screenshot/classic.png)
 
-adding a .gcf file:
+adding a .gcf file:\
 [adding a .gcf file screenshot](screenshot/add.png)
