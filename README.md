@@ -3,24 +3,24 @@ game launcher is a tools for select and launch the game you want (steam library-
 
 # BUILD
 DEFAULT:\
-	make
+<space><space><space>make
 
 CLASSIC BOX:\
-	make classic
+<space><space><space>make classic
   
 use "make clean" for delete all useless file when you have finish
 
 # DESCRIPTION
 USAGE:\
-\	game_launcher [PATH]
+<space><space><space>game_launcher [PATH]
 
 game launcher is a tools for select and launch the game you want (steam library-like)\
-	- game config file (.gcf) are in the "game_config" directory and are made of:\
-		- NAME: the name of the game | (not mandatory)\
-		- DESC: a description of this game | (not mandatory)\
-		- BIN_PATH: the path of the game binary (from his directory | (mandatory)\
-		- EMU_BIN: the emulator binary (command) you want to use (like wine). If you don't need a emulator, just ignore this var | (not mandatory)\
-	- game file are in the "game" directory, the game directory need to have the same name as his game config file (without the ".gcf")\
+<space><space><space>- game config file (.gcf) are in the "game_config" directory and are made of:\
+<space><space><space><space><space><space>- NAME: the name of the game | (not mandatory)\
+<space><space><space><space><space><space>- DESC: a description of this game | (not mandatory)\
+<space><space><space><space><space><space>- BIN_PATH: the path of the game binary (from his directory | (mandatory)\
+<space><space><space><space><space><space>- EMU_BIN: the emulator binary (command) you want to use (like wine). If you don't need a emulator, just ignore this var | (not mandatory)\
+<space><space><space>- game file are in the "game" directory, the game directory need to have the same name as his game config file (without the ".gcf")\
 All this file have to be in "~/game_launcher/" directory or in the directory PATH\
 You can create a .gcf file with a "add" command
 
