@@ -12,7 +12,7 @@ use "make clean" for delete all useless file when you have finish
 
 # DESCRIPTION
 USAGE:\
-	game_launcher [PATH]\
+\t\tgame_launcher [PATH]
 
 game launcher is a tools for select and launch the game you want (steam library-like)\
 	- game config file (.gcf) are in the "game_config" directory and are made of:\
