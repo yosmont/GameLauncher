@@ -72,11 +72,8 @@ gameinfo_t *get_list(char *progpath)
 	gameinfo_t *tmp;
 	char *path = my_strcat(strdup(progpath), "game_config/\0");
 	DIR *dir = opendir(path);
-	if (dir == NULL) {
-		mkdir(progpath, 0777);
+	if (dir == NULL)
 		mkdir(path, 0777);
-	}
-	dir = opendir(path);
 	struct dirent *file = readdir(dir);
 
 	while (file) {
