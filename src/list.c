@@ -75,6 +75,7 @@ gameinfo_t *get_list(char *progpath)
 	if (dir == NULL) {
 		mkdir(progpath, 0777);
 		mkdir(path, 0777);
+		mkdir(my_strcat(strdup(progpath), "game/\0"), 0777);
 	}
 	dir = opendir(path);
 	struct dirent *file = readdir(dir);
