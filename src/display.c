@@ -58,7 +58,7 @@ static void display_desc(gameinfo_t *current, char *path)
 	while (check == 2) {
 		if (line)
 			free(line);
-		write(1, "\ndo you want to launch him? [y|n] \0", 35);
+		write(1, "\ndo you want to launch it? [y|n] \0", 34);
 		line = gnl(stdin);
 		if (line[0] == 'y' || line[0] == 'Y')
 			check = 1;
