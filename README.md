@@ -8,7 +8,7 @@ DEFAULT:\
 CLASSIC BOX:\
   make classic
   
-use "make clean" for delete all useless file when you have finish
+use "make clean" for delete all the .o file
 
 # DESCRIPTION
 USAGE:\
