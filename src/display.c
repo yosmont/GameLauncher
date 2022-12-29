@@ -13,9 +13,9 @@
 
 static void print_boxline(int len, char *str)
 {
-	int len_two = (str)? ((strlen(str) % 2) == 1)?
-		((strlen(str) / 2) + 1) : (strlen(str) / 2) : 0;
-
+  //int len_two = (str)? ((strlen(str) % 2) == 1)?
+  //	((strlen(str) / 2) + 1) : (strlen(str) / 2) : 0;
+  int len_two = (str) ? (strlen(str) / 2) : 0;
 	if (str) {
 		printf("*");
 		for (int i = 0; i < ((len / 2) - len_two); i++)
